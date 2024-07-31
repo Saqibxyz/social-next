@@ -24,6 +24,7 @@ const Post = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla neque quas nam et vitae, placeat ratione, officiis, expedita fugiat eos quidem? Quo, harum hic beatae quos magni sapiente deserunt ipsum!
                 </p>
             </div>
+        
             {/* Interaction*/}
             <div className=" flex items-center justify-between text-sm my-4">
                 <div className=" flex gap-8">
