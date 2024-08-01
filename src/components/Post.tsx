@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Comments from './Comments'
 
 const Post = () => {
     return (
@@ -24,7 +25,7 @@ const Post = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla neque quas nam et vitae, placeat ratione, officiis, expedita fugiat eos quidem? Quo, harum hic beatae quos magni sapiente deserunt ipsum!
                 </p>
             </div>
-        
+
             {/* Interaction*/}
             <div className=" flex items-center justify-between text-sm my-4">
                 <div className=" flex gap-8">
@@ -44,6 +45,7 @@ const Post = () => {
                     </div>
                 </div>
                 <div className="">
+
                     <div className=" flex items-center gap-4 bg-slate-50 p-2 rounded-xl ">
                         <Image src="/share.png" alt=""
                             height={16} width={16} className=' cursor-pointer ' />
@@ -54,6 +56,7 @@ const Post = () => {
                 </div>
             </div>
 
+            <Comments />
         </div>
     )
 }
